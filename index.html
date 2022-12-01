@@ -24,18 +24,18 @@
 
     <!-- application styles -->
     <link rel="stylesheet" href="style.css">
-    
-    <!-- application scripts -->
-    <script src="app.js" defer></script>
-
-    <!-- manifest script -->
-    <link rel="manifest" href="manifest.json" />
 
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('serviceWorker.js');
         }
     </script>
+    
+    <!-- application scripts -->
+    <script src="app.js" defer></script>
+
+    <!-- manifest script -->
+    <link rel="manifest" href="manifest.json" />
 
 </head>
 
