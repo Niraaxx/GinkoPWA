@@ -9,13 +9,25 @@
         "type": "image/png"
       },
       {
+        "src": "icons/icon-64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
         "src": "icons/icon-512.png",
         "sizes": "512x512",
         "type": "image/png"
+      },
+      {
+        "src": "icons/maskable_icons.png",
+        "sizes": "272x272",
+        "type": "image/png",
+        "purpose": "maskable"
       }
     ],
     "start_url": "index.html",
     "display": "fullscreen",
+    "orientation": "portrait",
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF"
   }
